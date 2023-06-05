@@ -1,0 +1,40 @@
+.bg{background-image: url("../../../images/homeBackground.PNG");
+
+/* Full height */
+height: 100%; 
+
+/* Center and scale the image nicely */
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.nextButton{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    position: relative;
+    top: 60%;
+    height:10rem;
+    margin-right: 13rem;
+}
+.btnNext{
+    border: 0.2rem;
+    border-style: solid;
+    width:7rem;
+    height:3rem;
+}
+
+.heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 10%;
+    font-size: 3rem;
+    background-color: white;
+    margin: 0 12rem;
+    border: 0.2rem;
+    border-style: solid;
+    border-radius: 1.5rem;
+}

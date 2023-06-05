@@ -1,0 +1,53 @@
+<div class="d-flex flex-column h-100 bg">
+    <Section class="section1">
+        <form class="search" *ngIf="searchForm" [formGroup]="searchForm">
+
+
+            <div class="inputs">
+                <div class="select">
+                    <table>
+                        <tr>
+                            <td>
+                                <span class="label-select">Select Aircraft</span>
+                            </td>
+                            <td>
+                                <select [(ngModel)]="selectAircraft" class="form-select" formControlName="selectAircraft">
+                                    <option value="">None</option>
+                                    <option value="754">754</option>
+                                    <option value="755">755</option>
+                                    <option value="756">756</option>
+                                </select>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="datePicker">
+                    <mat-form-field deepChangeDetection="true">
+                        <mat-label>Choose a date</mat-label>
+                        <input matInput deepChangeDetection="true" [(ngModel)]="selectDate" [matDatepicker]="picker" formControlName="selectDate">
+                        <mat-datepicker-toggle matIconSuffix [for]="picker"></mat-datepicker-toggle>
+                        <mat-datepicker #picker></mat-datepicker>
+                    </mat-form-field>
+                </div>
+
+                <div class="checkBox">
+                    <input [(ngModel)]="selectSatSun" id="checkBoxSatSun" class="checkbox-tick" type="checkbox" name="option1" value="selected"
+                        formControlName="selectCheckbox">
+                    <label class="form-check-label" for="checkBoxSatSun">Saturday/Sunday</label>
+                </div>
+            </div>
+
+            <div class="buttons">
+                <button type="submit" [disabled]="!(selectAircraft && selectDate) ? true : null" (click)="searchInputs()" class="btn btn-success submitBtn">Submit</button>
+                <button (click)="clearInputs()" class="btn btn-secondary clearBtn">Clear</button>
+            </div>
+
+        </form>
+    </Section>
+
+    <Section class="section2">
+        <full-calendar class="calendar" deepChangeDetection="true" [options]="calendarOptions"></full-calendar>
+    </Section>
+
+
+</div>
