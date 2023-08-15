@@ -1,6 +1,6 @@
-*{
-    margin:0;
-    padding:0;
+* {
+  margin: 0;
+  padding: 0;
 }
 
 /* .search{
@@ -10,94 +10,97 @@
     align-items: center;
 } */
 
-.inputs{
-    margin-left: 2rem; 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
+.inputs {
+  margin-left: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
 }
 
-.form-select{
-    width: 10rem;
-    margin-left: 0.6rem;
+.form-select {
+  width: 10rem;
+  margin-left: 0.6rem;
 }
 
-.select,.datePicker,.checkbox{
-
-    margin-right: 3rem;
+.select,
+.datePicker,
+.checkbox {
+  margin-right: 3rem;
 }
 
-.buttons{
-    display: flex;
-    justify-content: right;
-    margin-top: 0.1rem;
-    position: relative;
-    left:2.2rem;
+.buttons {
+  display: flex;
+  justify-content: right;
+  margin-top: 0.1rem;
+  position: relative;
+  left: 2.2rem;
 }
 
-.submitBtn,.clearBtn{
-    margin: 0 0.3rem;
-    width: 5rem;
-    border: 2px;
-    border-style: solid;
-    border-color: black;
-    /* border-radius: 25px; */
+.submitBtn,
+.clearBtn {
+  margin: 0 0.3rem;
+  width: 5rem;
+  border: 2px;
+  border-style: solid;
+  border-color: black;
+  /* border-radius: 25px; */
 }
 
-.section1{
-    display: flex;
-    margin: 0.3rem 13rem 0.3rem;
-    padding: 0.3rem;
-    border: 2px;
-    border-style: solid;
-    border-color: black;
-    border-radius: 25px;
-    background-color: ghostwhite;
-    opacity: 0.8;
+.section1 {
+  display: flex;
+  margin: 0.3rem 14rem 0.3rem;
+  padding: 0.3rem;
+  border: 2px;
+  border-style: solid;
+  border-color: black;
+  border-radius: 25px;
+  background-color: ghostwhite;
+  opacity: 0.8;
 }
 
-.section2{
-    display: flex;
-    justify-content: center;
-    margin: 0.3rem 13rem 0.3rem;
-    padding: 0.3rem;
-    border: 2px;
-    border-style: solid;
-    border-color: black;
-    border-radius: 25px;
-    height:32rem;
+.section2 {
+  display: flex;
+  justify-content: center;
+  margin: 0.3rem 14rem 0.3rem;
+  padding: 0.3rem;
+  border: 2px;
+  border-style: solid;
+  border-color: black;
+  border-radius: 25px;
+  height: 38rem;
 }
 
-.calendar{
-    height: 30.7rem;
-    width: 50rem;
+.calendar {
+  height: 30.7rem;
+  width: 50rem;
 }
 
-.label-select,.form-check-label{
-    font-size: 1.3rem;
+.label-select,
+.form-check-label {
+  font-size: 1.3rem;
 }
 
-.form-check-label{
-    margin-left: 0.4rem;
+.form-check-label {
+  margin-left: 0.4rem;
 }
 
-.checkbox-tick{
-    height: 1.2rem;
-    width: 1.2rem
+.checkbox-tick {
+  height: 1.2rem;
+  width: 1.2rem;
 }
 
-.bg{
-    /* The image used */
- background-image: url("../../../images/background.PNG");
+.bg {
+  /* The image used */
+  background-image: url("../../../images/background.PNG");
 
- /* Full height */
- height: 100%; 
+  /* Full height */
+  height: 100%;
 
- /* Center and scale the image nicely */
- background-position: center;
- background-repeat: no-repeat;
- background-size: cover;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 
- /* opacity: 0.5; */
+  /* opacity: 0.5; */
 }
